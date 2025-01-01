@@ -37,6 +37,10 @@ for(var i=0; i<buttonNumbers;i++){
             default: console.log(buttonInnerHTML);
         }
     });
+
+    document.addEventListener("keypress", function(event){
+        makeSound(event.key);
+    });
 }
 
 
